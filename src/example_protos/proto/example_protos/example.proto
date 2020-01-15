@@ -1,0 +1,26 @@
+syntax = "proto3";
+package example.v1;
+
+
+// Служба извлечения
+service ExampleService {
+    // Запрос на получение
+    rpc GetData(Request) returns (Response);
+}
+
+// Запрос сервису
+message Request {
+    int32 A = 1;
+    int32 B = 2;
+    string Type = 3;
+}
+
+
+// Ответ сервиса
+message Response {
+    DataResponseField Result = 1;
+}
+
+message DataResponseField {
+    float Value = 1;
+}
