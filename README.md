@@ -1,5 +1,5 @@
 # grpcExmpl
-Example of creating grpc client-server on python
+Example of creating grpc client-server on python. (http://example.com/link "GRPC") and gRPCui will be used here.
 
 ## Requirements
 1. Python 3.6.2
